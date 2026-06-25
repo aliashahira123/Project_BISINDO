@@ -274,7 +274,7 @@ Dataset is available on Kaggle:
 
 
 
-\[PUT YOUR KAGGLE DATASET LINK HERE]
+\[https://www.kaggle.com/datasets/alia2005/bisindo-hand-gesture-dataset-and-model?select=dataset_gambar]
 
 
 
@@ -290,7 +290,7 @@ The trained `.pkl` model is available on Kaggle:
 
 
 
-\[PUT YOUR MODEL LINK HERE]
+\[https://www.kaggle.com/datasets/alia2005/bisindo-hand-gesture-dataset-and-model?select=dataset_gambar]
 
 
 
