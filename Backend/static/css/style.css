@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial;
+    background:#f5f0e6;
+    height:100vh;
+    overflow:hidden;
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* HEADER */
+h1{
+    text-align:center;
+    padding:10px;
+    color:#5c4b3b;
+    font-size:22px;
+}
+
+/* VIDEO AREA (FIX UTAMA) */
+.video-box{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+
+/* 🔥 INI KUNCI BIAR TIDAK GEPENG */
+.video-box img{
+    width:auto;
+    height:100%;
+    max-width:95vw;
+    max-height:75vh;
+    object-fit:contain;   /* ❗ FIX DISTORSI */
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    background:black;
+}
+
+/* PANEL BAWAH */
+.panel{
+    height:120px;
+    background:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    box-shadow:0 -3px 10px rgba(0,0,0,0.1);
+}
+
+/* TEXT OUTPUT */
+#sentence{
+    font-size:18px;
+    font-weight:bold;
+    color:#333;
+    max-width:60%;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+/* BUTTON */
+button{
+    padding:10px 18px;
+    border:none;
+    background:#5c4b3b;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:14px;
+}
+
+button:hover{
+    background:#3e2f24;
+}

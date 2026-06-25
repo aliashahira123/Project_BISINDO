@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIGN LANGUAGE DETECTION</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>SIGN LANGUAGE DETECTION</h1>
+
+    <div class="video-box">
+        <img src="{{ url_for('video_feed') }}">
+    </div>
+
+    <div class="panel">
+        <h3>Hasil:</h3>
+        <div id="sentence">-</div>
+
+        <button onclick="reset()">RESET</button>
+        <button onclick="space()">SPACE</button>
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
